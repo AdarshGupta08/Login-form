@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(225, 222, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    background-color: rgb(0, 200, 255);
+    width: 30%;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form label {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form .paisa {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+form .input-container {
+    position: relative;
+}
+
+form .input-container i {
+    position: absolute;
+    top: 56%;
+    left: 9px;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+}
+
+form .input-container input {
+    padding-left: 30px;
+}
+
+form #btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+button:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+#cancel {
+    background-color: red;
+}
+
+#cancel:hover {
+    background-color: rgb(220, 113, 113);
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+form a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form .checkbox-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+
+form .checkbox-container input {
+    margin-right: 10px;
+}
